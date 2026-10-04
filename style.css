@@ -1,0 +1,100 @@
+/* ---------------------1.global defaults --------------------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* -----------------------2.header and footer ----------------------------- */
+header {
+    background-color: #111827;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 28px;
+}
+
+footer {
+    background-color: #111827;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+footer p {
+    color: #ccc;
+    font-size: 14px;
+    margin: 0;
+}
+
+/* -----------------------3.main content ----------------------------- */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* -----------------------4.form styles ----------------------------- */
+form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font: inherit;
+    margin-bottom: 20px;
+}
+
+form input:focus {
+    outline: 3px solid #2563eb;
+    outline-offset: 2px;
+}
+
+form button {
+    width: 100%;
+    padding: 14px;
+    background-color: #111827;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 0.85;
+}
+
+#result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
